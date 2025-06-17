@@ -2,8 +2,8 @@ public class aluno extends pessoa {
     private double nota;
 
     public aluno(String nome, int idade, double nota) {
-        super(nome, idade);
-        this.nota = nota;
+        super(nome, idade);// chama o construtor da classe pessoa
+        this.nota = nota;// define a nota do aluno
     }
 
     public double getNota() {
