@@ -17,7 +17,8 @@ public class aluno extends pessoa {
     
     }
 
-    @Override
+    @Override //indica que você está sobrescrevendo um método que já existe na classe pai ou em object.
+              //está sobrescrevendo o método padrão toString() que toda classe em Java herda da classe object
     public void mostrarInformacoes() {
         System.out.println("Nome: " + getNome() + ", Idade: " + getIdade() + ", Nota: " + nota + ");
     }
