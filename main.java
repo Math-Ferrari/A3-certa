@@ -85,7 +85,7 @@ public class main {
                     System.out.println("Opção inválida.");
             }
 
-        } while (opcao != 5);
+        } while (opcao != 5); //repete o menu
 
         sc.close();
     }
